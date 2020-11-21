@@ -1,0 +1,41 @@
+{
+  "name": "react-initial-kit",
+  "version": "1.0.0",
+  "description": "/***************Read me ***********/\r This is just a starting kid for a react project with redux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "webpack serve --mode development --env development",
+    "start:prod": "webpack-dev-server --mode=production",
+    "build": "webpack --mode production",
+    "webpack-dev-server": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moglimanani/react-redux-starter-kit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moglimanani/react-redux-starter-kit/issues"
+  },
+  "homepage": "https://github.com/moglimanani/react-redux-starter-kit#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-react": "^7.12.7",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^4.5.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.12.7",
+    "babel-plugin-import": "^1.13.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "webpack": "^5.6.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
